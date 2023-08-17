@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 25px 10px;
+  margin: 0 auto;
+}
+
+app-content {
+  flex-grow: 1;
+}
+
+app-header {
+  position: sticky;
+  top: 0;
+}
